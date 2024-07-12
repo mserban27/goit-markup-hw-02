@@ -14,7 +14,9 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  background-color: var(--white-text)
   color: var(--navy-text)
 }
 
+.header-nav {
+    background-color: var(--white-text);
+}
