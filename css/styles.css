@@ -1,11 +1,28 @@
 :root {
-    --white-text:#FFFFFF;
-    --iris-text:#4D5AE5;
-    --navy-text:#2E2F42;
-    --cloud-text:#F4F4FD;
+  --white-text: #ffffff;
+  --iris-text: #4d5ae5;
+  --navy-text: #2e2f42;
+  --cloud-text: #f4f4fd;
+  --slate-text: #434455;
+  --cornflower: #E7E9FC;
 }
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  color: var(--iris-text);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.header-link-active,
+.header-link:hover {
+  color: var(--white-text);
 }
 
 .header-item {
@@ -14,9 +31,263 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--navy-text)
+  color: var(--navy-text);
 }
 
 .header-nav {
-    background-color: var(--white-text);
+  background-color: var(--white-text);
+}
+
+.primary-section {
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  background-color: var(--navy-text);
+}
+
+.primary-title {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-text);
+  background-color: var(--navy-text);
+}
+
+.primary-button {
+  width: Hug (169px) px;
+  height: Hug (56px) px;
+  top: 428px;
+  left: 636px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: var(--iris-text);
+  color: var(--white-text);
+  cursor: pointer;
+}
+
+.secondary-section {
+  width: 1128px;
+  height: 104px;
+  top: 792px;
+  left: 156px;
+}
+
+.portfolio-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--slate-text);
+}
+
+.strategy {
+  width: Fixed (264px) px;
+  height: Hug (104px) px;
+  top: 792px;
+  left: 156px;
+  gap: 8px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--navy-text);
+}
+
+.punctuality {
+  width: Fixed (264px) px;
+  height: Hug (104px) px;
+  top: 792px;
+  left: 444px;
+  gap: 8px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--navy-text);
+}
+
+.diligence {
+  width: Fixed (264px) px;
+  height: Hug (104px) px;
+  top: 792px;
+  left: 732px;
+  gap: 8px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--navy-text);
+}
+
+.technologies {
+  width: Fixed (264px) px;
+  height: Hug (104px) px;
+  top: 792px;
+  left: 1020px;
+  gap: 8px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--navy-text);
+}
+
+.team-section {
+  width: 1440px;
+  height: 732px;
+  top: 1016px;
+  background-color: var(--cloud-text);
+}
+
+.secondary-title {
+  width: 162px;
+  height: 40px;
+  top: 1136px;
+  left: 639px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+
+.team-header {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-text);
+}
+
+.team-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate-text);
+}
+
+.mark-guerrero {
+  width: Hug (264px) px;
+  height: Hug (380px) px;
+  top: 1248px;
+  left: 156px;
+  padding: 0px 0px 32px 0px;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 0px;
+}
+
+.tom-ford {
+  width: Hug (264px) px;
+  height: Hug (380px) px;
+  top: 1248px;
+  left: 444px;
+  padding: 0px 0px 32px 0px;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 0px;
+}
+
+.camila-garcia {
+  width: Hug (264px) px;
+  height: Hug (380px) px;
+  top: 1248px;
+  left: 732px;
+  padding: 0px 0px 32px 0px;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 0px;
+}
+
+.daniel-wilson {
+  width: Hug (264px) px;
+  height: Hug (380px) px;
+  top: 1248px;
+  left: 1020px;
+  padding: 0px 0px 32px 0px;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 0px;
+}
+
+.portfolio-section {
+  width: 1128px;
+  height: 1000px;
+  top: 1868px;
+  left: 156px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border-width: 1px, 1px, 1px, 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
+}
+
+.portfolio-title {
+  width: 218px;
+  height: 40px;
+  top: 1868px;
+  left: 611px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-text);
+}
+
+.first-portfolio-line {
+  width: 1128px;
+height: 420px;
+top: 1980px;
+left: 156px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border-width: 1px, 1px, 1px, 1px;
+border-style: solid;
+border-color: var(--cornflower);
+
+
+}
+
+.second-portfolio-line {
+}
+
+.portfolio-header {
+}
+
+.portfolio-paragraph {
+}
+
+.footer {
+}
+
+.footer-paragraph {
 }
