@@ -5,9 +5,16 @@
   --cloud-text: #f4f4fd;
   --slate-text: #434455;
   --cornflower: #e7e9fc;
+  --ocean: #404BBF;
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--slate-text);
+  background-color: var(--white-text);
+  width: 1440px;
+  height: 72px;
+  border: 0px 0px 1px 0px;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .logo {
@@ -18,11 +25,14 @@ body {
   line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
+  line-height: 1.17;
+  text-transform: uppercase
 }
 
 .header-link-active,
-.header-link:hover {
-  color: var(--white-text);
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
 }
 
 .header-item {
@@ -31,17 +41,34 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-text);
+} 
+
+.header-address,
+.header-address:hover {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate-text);
+}
+
+.header-address:active {
+  color:var(--ocean)
 }
 
 .header-nav {
   background-color: var(--white-text);
 }
 
+.address {
+  font-style:normal;
+}
 .primary-section {
   width: 1440px;
   height: 600px;
   top: 72px;
   background-color: var(--navy-text);
+  line-height:1.07;
 }
 
 .primary-title {
@@ -65,6 +92,13 @@ body {
   background-color: var(--iris-text);
   color: var(--white-text);
   cursor: pointer;
+  font-weight: 500;
+  line-height:1.5;
+  letter-spacing: 0.04em;
+}
+.primary-button:hover,
+.primary-button:focus {
+  color:var(--ocean);
 }
 
 .secondary-section {
@@ -84,11 +118,6 @@ body {
 }
 
 .strategy {
-  width: Fixed (264px) px;
-  height: Hug (104px) px;
-  top: 792px;
-  left: 156px;
-  gap: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -98,11 +127,6 @@ body {
 }
 
 .punctuality {
-  width: Fixed (264px) px;
-  height: Hug (104px) px;
-  top: 792px;
-  left: 444px;
-  gap: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -112,11 +136,6 @@ body {
 }
 
 .diligence {
-  width: Fixed (264px) px;
-  height: Hug (104px) px;
-  top: 792px;
-  left: 732px;
-  gap: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -126,11 +145,6 @@ body {
 }
 
 .technologies {
-  width: Fixed (264px) px;
-  height: Hug (104px) px;
-  top: 792px;
-  left: 1020px;
-  gap: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -153,9 +167,12 @@ body {
   left: 639px;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
+  text-transform:capitalize;
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--navy-text);
+  background-color:var(--white-text);
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
@@ -180,8 +197,6 @@ body {
 }
 
 .mark-guerrero {
-  width: Hug (264px) px;
-  height: Hug (380px) px;
   top: 1248px;
   left: 156px;
   padding: 0px 0px 32px 0px;
@@ -190,8 +205,6 @@ body {
 }
 
 .tom-ford {
-  width: Hug (264px) px;
-  height: Hug (380px) px;
   top: 1248px;
   left: 444px;
   padding: 0px 0px 32px 0px;
@@ -200,8 +213,6 @@ body {
 }
 
 .camila-garcia {
-  width: Hug (264px) px;
-  height: Hug (380px) px;
   top: 1248px;
   left: 732px;
   padding: 0px 0px 32px 0px;
@@ -210,8 +221,6 @@ body {
 }
 
 .daniel-wilson {
-  width: Hug (264px) px;
-  height: Hug (380px) px;
   top: 1248px;
   left: 1020px;
   padding: 0px 0px 32px 0px;
@@ -229,6 +238,7 @@ body {
   border-width: 1px, 1px, 1px, 1px;
   border-style: solid;
   border-color: #e7e9fc;
+  line-height:1.11;
 }
 
 .portfolio-title {
@@ -241,7 +251,7 @@ body {
   line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-text);
+  text-transform:capitalize;
 }
 
 .first-portfolio-line {
