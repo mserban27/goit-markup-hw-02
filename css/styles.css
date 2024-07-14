@@ -303,4 +303,5 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--cloud-text);
+  background-color:var(--navy-text)
 }
