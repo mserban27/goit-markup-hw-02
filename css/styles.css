@@ -4,7 +4,7 @@
   --navy-text: #2e2f42;
   --cloud-text: #f4f4fd;
   --slate-text: #434455;
-  --cornflower: #E7E9FC;
+  --cornflower: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -12,7 +12,7 @@ body {
 
 .logo {
   color: var(--iris-text);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
@@ -26,7 +26,6 @@ body {
 }
 
 .header-item {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -46,7 +45,6 @@ body {
 }
 
 .primary-title {
-  font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
@@ -77,7 +75,6 @@ body {
 }
 
 .portfolio-paragraph {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -92,7 +89,6 @@ body {
   top: 792px;
   left: 156px;
   gap: 8px;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -107,7 +103,6 @@ body {
   top: 792px;
   left: 444px;
   gap: 8px;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -122,7 +117,6 @@ body {
   top: 792px;
   left: 732px;
   gap: 8px;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -137,7 +131,6 @@ body {
   top: 792px;
   left: 1020px;
   gap: 8px;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -158,7 +151,6 @@ body {
   height: 40px;
   top: 1136px;
   left: 639px;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -170,7 +162,6 @@ body {
 }
 
 .team-header {
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -180,7 +171,6 @@ body {
 }
 
 .team-paragraph {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -197,7 +187,6 @@ body {
   padding: 0px 0px 32px 0px;
   gap: 32px;
   border-radius: 0px 0px 4px 4px;
-  opacity: 0px;
 }
 
 .tom-ford {
@@ -208,7 +197,6 @@ body {
   padding: 0px 0px 32px 0px;
   gap: 32px;
   border-radius: 0px 0px 4px 4px;
-  opacity: 0px;
 }
 
 .camila-garcia {
@@ -219,7 +207,6 @@ body {
   padding: 0px 0px 32px 0px;
   gap: 32px;
   border-radius: 0px 0px 4px 4px;
-  opacity: 0px;
 }
 
 .daniel-wilson {
@@ -230,7 +217,6 @@ body {
   padding: 0px 0px 32px 0px;
   gap: 32px;
   border-radius: 0px 0px 4px 4px;
-  opacity: 0px;
 }
 
 .portfolio-section {
@@ -240,7 +226,6 @@ body {
   left: 156px;
   gap: 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
   border-width: 1px, 1px, 1px, 1px;
   border-style: solid;
   border-color: #e7e9fc;
@@ -251,9 +236,6 @@ body {
   height: 40px;
   top: 1868px;
   left: 611px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -264,30 +246,51 @@ body {
 
 .first-portfolio-line {
   width: 1128px;
-height: 420px;
-top: 1980px;
-left: 156px;
-gap: 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-border-width: 1px, 1px, 1px, 1px;
-border-style: solid;
-border-color: var(--cornflower);
-
-
+  height: 420px;
+  top: 1980px;
+  left: 156px;
+  border: 1px 0px 0px 0px;
+  border-width: 1px, 1px, 1px, 1px;
+  border-style: solid;
+  border-color: var(--cornflower);
 }
 
 .second-portfolio-line {
+  width: 1128px;
+  height: 420px;
+  top: 2448px;
+  left: 156px;
+  background-color: var(--white-text);
 }
 
 .portfolio-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .portfolio-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .footer {
+  width: 1440px;
+  height: 312px;
+  top: 2988px;
+  color: var(--navy-text);
 }
 
 .footer-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--cloud-text);
 }
