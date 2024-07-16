@@ -62,7 +62,9 @@ body {
 
 .address {
   font-style: normal;
+  color: #434343;
 }
+
 .primary-section {
   width: 1440px;
   height: 600px;
@@ -279,6 +281,7 @@ body {
   height: 312px;
   top: 2988px;
   color: var(--navy-text);
+  background-color: #2e2f42;
 }
 
 .footer-paragraph {
@@ -288,5 +291,4 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--cloud-text);
-  background-color: #2e2f42;
 }
