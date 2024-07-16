@@ -103,7 +103,10 @@ body {
   letter-spacing: 0.04em;
 }
 
-.primary-button:hover,
+.primary-button:hover{
+  color: #404BBF;
+}
+
 .primary-button:focus {
   color: #404BBF;
 }
