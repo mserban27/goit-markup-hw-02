@@ -5,7 +5,7 @@
   --cloud-text: #f4f4fd;
   --slate-text: #434455;
   --cornflower: #e7e9fc;
-  --ocean: #404BBF;
+  --ocean: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -41,7 +41,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-text);
-} 
+}
 
 .header-address,
 .header-address:hover {
@@ -53,7 +53,7 @@ body {
 }
 
 .header-address:active {
-  color:var(--ocean)
+  color: var(--ocean);
 }
 
 .header-nav {
@@ -61,17 +61,21 @@ body {
 }
 
 .address {
-  font-style:normal;
+  font-style: normal;
 }
 .primary-section {
   width: 1440px;
   height: 600px;
   top: 72px;
   background-color: var(--navy-text);
-  line-height:1.07;
+  line-height: 1.07;
 }
 
 .primary-title {
+  width: 496px;
+  height: 120px;
+  top: 260px;
+  left: 472px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -93,12 +97,13 @@ body {
   color: var(--white-text);
   cursor: pointer;
   font-weight: 500;
-  line-height:1.5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
 .primary-button:hover,
 .primary-button:focus {
-  color:var(--ocean);
+  color: #404BBF;
 }
 
 .secondary-section {
@@ -106,15 +111,7 @@ body {
   height: 104px;
   top: 792px;
   left: 156px;
-}
-
-.portfolio-paragraph {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: var(--slate-text);
+  gap: 8px;
 }
 
 .second-section-text {
@@ -124,7 +121,11 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--navy-text);
+  width: Fixed (264px) px;
+  height: Hug (104px) px;
+  top: 792px;
   gap: 8px;
+  opacity: 0px;
 }
 
 .team-section {
@@ -142,11 +143,11 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  text-transform:capitalize;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-text);
-  background-color:var(--white-text);
+  background-color: var(--white-text);
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
@@ -208,12 +209,11 @@ body {
   height: 1000px;
   top: 1868px;
   left: 156px;
-  gap: 0px;
   border: 1px 0px 0px 0px;
   border-width: 1px, 1px, 1px, 1px;
   border-style: solid;
   border-color: #e7e9fc;
-  line-height:1.11;
+  line-height: 1.11;
   color: var(--navy-text);
 }
 
@@ -224,11 +224,19 @@ body {
   left: 611px;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform:capitalize;
+  text-transform: capitalize;
   color: var(--navy-text);
+}
+.portfolio-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--slate-text);
 }
 
 .first-portfolio-line {
@@ -280,5 +288,5 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--cloud-text);
-  background-color:var(--navy-text);
+  background-color: #2e2f42;
 }
