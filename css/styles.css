@@ -25,22 +25,17 @@ body {
   text-transform: uppercase;
 }
 
-.header-background {
-  color: #2e2f42;
-}
-
-
-.header-link:hover,
-.header-link:focus {
-  color: var(--ocean);
-}
-
 .header-item {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
 }
 
 .header-address,
@@ -58,6 +53,7 @@ body {
 
 .header-nav {
   background-color: var(--white-text);
+  color: #2e2f42;
 }
 
 .address {
