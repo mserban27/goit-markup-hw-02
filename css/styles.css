@@ -25,9 +25,6 @@ body {
   text-transform: uppercase;
 }
 
-.header-list {
-  color:var(--navy-text);
-}
 .header-link {
   color:var(--navy-text);
 }
@@ -43,7 +40,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--navy-text);
+  color: #2e2f42;
 }
 
 .header-address,
