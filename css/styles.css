@@ -38,11 +38,11 @@ body {
   color: #2e2f42;
 }
 
-.header-background #navigation > ul .header-list > a {
+.header-background #navigation {
   color: #2e2f42;
 }
 
-#navigation .header-link:hover,
+.header-link:hover,
 .header-link:focus {
   color: var(--ocean);
 }
