@@ -25,6 +25,9 @@ body {
   text-transform: uppercase;
 }
 
+.header-list {
+  color:var(--navy-text);
+}
 .header-link {
   color:var(--navy-text);
 }
