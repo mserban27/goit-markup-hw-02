@@ -25,19 +25,15 @@ body {
   text-transform: uppercase;
 }
 
-.header-background #navigation {
+.header-background {
   color: #2e2f42;
 }
 
-.header-link {
-  color: #2e2f42;
-}
 
 .header-link:hover,
 .header-link:focus {
   color: var(--ocean);
 }
-
 
 .header-item {
   font-size: 16px;
