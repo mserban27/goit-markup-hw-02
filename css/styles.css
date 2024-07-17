@@ -43,6 +43,10 @@ body {
   color: #2e2f42;
 }
 
+.header-background #navigation > ul .header-list > a {
+  color: #2e2f42;
+}
+
 .header-address,
 .header-address:hover {
   font-size: 16px;
