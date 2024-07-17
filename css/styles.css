@@ -11,10 +11,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--slate-text);
   background-color: var(--white-text);
-  width: 1440px;
-  height: 72px;
-  border: 0px 0px 1px 0px;
-  border-bottom: 1px solid var(--cornflower);
 }
 
 .logo {
@@ -27,6 +23,10 @@ body {
   text-align: left;
   line-height: 1.17;
   text-transform: uppercase;
+}
+
+.header-link {
+  color:var(--navy-text);
 }
 
 .header-link-active,
@@ -66,19 +66,11 @@ body {
 }
 
 .primary-section {
-  width: 1440px;
-  height: 600px;
-  top: 72px;
   background-color: var(--navy-text);
   line-height: 1.07;
 }
 
 .primary-title {
-  width: 496px;
-  height: 120px;
-  top: 260px;
-  left: 472px;
-  font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -88,13 +80,6 @@ body {
 }
 
 .primary-button {
-  width: Hug (169px) px;
-  height: Hug (56px) px;
-  top: 428px;
-  left: 636px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
   background-color: var(--iris-text);
   color: var(--white-text);
   cursor: pointer;
@@ -103,21 +88,14 @@ body {
   letter-spacing: 0.04em;
 }
 
-.primary-button:hover{
-  color: #404BBF;
+.primary-button:hover {
+  background-color: #404BBF;
 }
 
 .primary-button:focus {
-  color: #404BBF;
+  background-color: #404BBF;
 }
 
-.secondary-section {
-  width: 1128px;
-  height: 104px;
-  top: 792px;
-  left: 156px;
-  gap: 8px;
-}
 
 .second-section-text {
   font-size: 20px;
@@ -126,25 +104,13 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--navy-text);
-  width: Fixed (264px) px;
-  height: Hug (104px) px;
-  top: 792px;
-  gap: 8px;
-  opacity: 0px;
 }
 
 .team-section {
-  width: 1440px;
-  height: 732px;
-  top: 1016px;
   background-color: var(--cloud-text);
 }
 
 .secondary-title {
-  width: 162px;
-  height: 40px;
-  top: 1136px;
-  left: 639px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -153,9 +119,6 @@ body {
   text-align: center;
   color: var(--navy-text);
   background-color: var(--white-text);
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
-  box-shadow: 0px 1px 1px 0px #2e2f4229;
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 
 .team-header {
@@ -176,57 +139,18 @@ body {
   color: var(--slate-text);
 }
 
-.mark-guerrero {
-  top: 1248px;
-  left: 156px;
-  padding: 0px 0px 32px 0px;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
+.team-members {
   background-color: var(--white-text);
 }
 
-.tom-ford {
-  top: 1248px;
-  left: 444px;
-  padding: 0px 0px 32px 0px;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
-}
-
-.camila-garcia {
-  top: 1248px;
-  left: 732px;
-  padding: 0px 0px 32px 0px;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
-}
-
-.daniel-wilson {
-  top: 1248px;
-  left: 1020px;
-  padding: 0px 0px 32px 0px;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
-}
 
 .portfolio-section {
-  width: 1128px;
-  height: 1000px;
-  top: 1868px;
-  left: 156px;
-  border: 1px 0px 0px 0px;
-  border-width: 1px, 1px, 1px, 1px;
-  border-style: solid;
   border-color: #e7e9fc;
   line-height: 1.11;
   color: var(--navy-text);
 }
 
 .portfolio-title {
-  width: 218px;
-  height: 40px;
-  top: 1868px;
-  left: 611px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -245,21 +169,11 @@ body {
 }
 
 .first-portfolio-line {
-  width: 1128px;
-  height: 420px;
-  top: 1980px;
-  left: 156px;
-  border: 1px 0px 0px 0px;
-  border-width: 1px, 1px, 1px, 1px;
   border-style: solid;
   border-color: var(--cornflower);
 }
 
 .second-portfolio-line {
-  width: 1128px;
-  height: 420px;
-  top: 2448px;
-  left: 156px;
   background-color: var(--white-text);
 }
 
@@ -280,9 +194,6 @@ body {
 }
 
 .footer {
-  width: 1440px;
-  height: 312px;
-  top: 2988px;
   color: var(--navy-text);
   background-color: #2e2f42;
 }
