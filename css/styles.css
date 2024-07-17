@@ -67,6 +67,11 @@ body {
   color:var(--slate-text);
 }
 
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
+}
+
 .primary-section {
   background-color: var(--navy-text);
   line-height: 1.07;
@@ -98,7 +103,6 @@ body {
 .primary-button:focus {
   background-color: #404BBF;
 }
-
 
 .second-section-text {
   font-size: 20px;
