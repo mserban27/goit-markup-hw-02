@@ -28,6 +28,7 @@ body {
 .header-link {
   color:var(--navy-text);
 }
+
 .header-item {
   font-size: 16px;
   font-weight: 500;
@@ -58,12 +59,16 @@ body {
   background-color: var(--white-text);
 }
 
+.header-link-address {
+  color: var(--slate-text);
+}
+
 .address {
   font-style: normal;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-link-address:hover,
+.header-link-address:focus {
   color: var(--ocean);
 }
 
