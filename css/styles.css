@@ -26,9 +26,8 @@ body {
 }
 
 .header-link {
-  color: var(--navy-text);
+  color:var(--navy-text);
 }
-
 .header-item {
   font-size: 16px;
   font-weight: 500;
@@ -61,9 +60,6 @@ body {
 
 .address {
   font-style: normal;
-}
-.header-link {
-  color: var(--slate-text);
 }
 
 .header-link:hover,
