@@ -25,12 +25,15 @@ body {
   text-transform: uppercase;
 }
 
+.header-link {
+  color: var(--navy-text);
+}
+
 .header-item {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--navy-text);
 }
 
 .header-link:hover,
@@ -55,15 +58,11 @@ body {
   background-color: var(--white-text);
 }
 
-.header-list {
-  color:var(--navy-text);
-}
-
 .address {
   font-style: normal;
 }
 .header-link {
-  color:var(--slate-text);
+  color: var(--slate-text);
 }
 
 .header-link:hover,
@@ -77,7 +76,7 @@ body {
 }
 
 .primary-title {
-  font-size:56px;
+  font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -96,11 +95,11 @@ body {
 }
 
 .primary-button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .primary-button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .second-section-text {
@@ -148,7 +147,6 @@ body {
 .team-members {
   background-color: var(--white-text);
 }
-
 
 .portfolio-section {
   border-color: #e7e9fc;
